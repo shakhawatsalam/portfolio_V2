@@ -7,6 +7,7 @@ module.exports = {
 
     // Or if using `src` directory:
     './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/Channel/*.{js,ts,jsx,tsx}' 
   ],
   theme: {
     container: {
@@ -20,6 +21,7 @@ module.exports = {
       lg: '960px',
       xl: '1200px',
     },
+    
     extend: {
       colors: {
         primary: '#131424',
